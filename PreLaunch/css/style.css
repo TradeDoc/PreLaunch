@@ -22,6 +22,8 @@ html, body{
 .container img{
     margin: 0 auto; 
     display: block;
+    width: auto;
+    height: 10rem;
 }
 
 p, h1{
@@ -46,6 +48,15 @@ p, h1{
     left: 0;
     right: 0;
 }
+
+@media screen and (max-width: 960px) 
+{
+    .container img{
+        width: auto;
+        height: unset;
+    }
+}
+
 
 @media screen and (max-width: 500px) 
 {
